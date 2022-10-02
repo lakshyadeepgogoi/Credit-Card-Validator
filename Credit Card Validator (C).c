@@ -2,25 +2,25 @@
 
 //Function that gives the output of the type of the card.
 
-void cardType(int ct)
+void cardType(int ab)
 {
     printf("\n\nCard type :");
-    if(ct==3)
+    if(ab==3)
         {
             printf("American Express.");
         }
 
-    else if(ct==4)
+    else if(ab==4)
         {
             printf("Visa.");
         }
 
-    else if(ct==5)
+    else if(ab==5)
         {
             printf("Mastercard.");
         }
 
-    else if(ct==6)
+    else if(ab==6)
         {
             printf("Discover.");
         }
